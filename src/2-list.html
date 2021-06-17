@@ -1,20 +1,35 @@
 <!-- any HTML we want can go in here, including style and script tags -->
 <style>
+  ul {
+    padding: 0;
+  }
+
   li {
-	font-size: 125%;
+    font-size: 125%;
+    list-style: none;
+    text-transform: uppercase;
   }
 
   button {
-	  background-color: hotpink;
-	  color: white;
-	  font-size: 150%;
+    background-color: hotpink;
+    color: white;
+    font-size: 150%;
+    text-transform: uppercase;
+  }
+
+  button::before {
+    /* this WILL be read by screenreaders (in WebKit, at least) */
+    /* content: '+ '; */
   }
 </style>
 
-<ul>
-	<li>Reuben on Rails</li>
-	<li>Toast</li>
-	<li>Steamed YAMLs</li>
+<ul role="list">
+  <li>Reuben on Rails</li>
+  <li>Toast</li>
+  <li>Steamed YAMLs</li>
 </ul>
 
-<button>Add</button>
+<button>
+  <span aria-hidden="true">+ </span>
+  Add
+</button>
