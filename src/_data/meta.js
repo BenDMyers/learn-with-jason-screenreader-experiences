@@ -1,10 +1,10 @@
 module.exports = {
   // keep it short! shown in the header
-  title: 'Demo of the Demo',
+  title: 'Better Screenreader Experiences with CSS',
 
   // these are all optional and add links to the footer
-  repo: 'learnwithjason/demo-base',
+  repo: 'BenDMyers/learn-with-jason-screenreader-experiences',
   episode:
-    'https://www.learnwithjason.dev/creating-css-variable-font-text-effects',
-  tutorial: 'https://codepen.io/jlengstorf/pen/QWbdLjb',
+    'https://www.learnwithjason.dev/better-screenreader-experiences-with-css',
+  // tutorial: 'https://codepen.io/jlengstorf/pen/QWbdLjb',
 };

@@ -5,3 +5,8 @@
 
 [dev]
   command = "npm run dev"
+
+[[redirects]]
+from = "/*"
+to = "/1-hiding/"
+status = 301
