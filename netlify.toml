@@ -9,4 +9,4 @@
 [[redirects]]
 from = "/*"
 to = "/1-hiding/"
-status = 200
+status = 301
